@@ -1,0 +1,25 @@
+﻿.hh-box {
+    position: relative;
+    width: 220px;
+    height: 300px;
+    border: 1px solid blue;
+    text-align: center;
+    margin: 5px 2px; /*Trên Dưới: 5px và Trái Phải: 2px*/
+    display: inline-block; /*Mỗi khối sẽ tự xuống dòng nếu nó đã hiện hết*/
+}
+.hh-box:hover {
+    border-radius: 10px;
+    box-shadow: 0 -10px 10px red;
+    margin: 20px;
+}
+.hh-image{
+    width: 90%;
+    height: 90%;
+    padding-top: 15px ;
+}
+.hh-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+}
